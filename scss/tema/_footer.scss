@@ -3,6 +3,9 @@
     background-color: $main-col-d;
     padding-bottom: 2em;
     }
+  .ed-item{
+    padding:.2em 2em;
+    }
   form{
     input{
 
@@ -13,13 +16,12 @@
   background-color: $main-col-d;
   p{
     color:darken($sec-col,10%);
-    padding-right: 3em;
     margin-bottom: 1.5em;
     }
   img{
     width:60%;
     display: block;
-    margin:1.5em 1em 2em;
+    margin:1.5em 0em 2em;
     }
   }
 .home__footer--social-icons{
