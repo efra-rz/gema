@@ -1,0 +1,151 @@
+// Modulo .index__slider
+.inicio__slider-principal{
+  background-color: #fff;
+  color:black;
+  .inicio--slider-box{
+    padding:0;
+    }
+  }
+// Modulo .index__bienvenidos-nosotros
+.index__bienvenidos-nosotros{
+  .ed-container{
+  padding:2em 0;
+  background-color: #fff;
+  }
+}
+
+.flex-container{
+  display: block;
+  @include from(web){
+    display:flex;
+    .flex-item{
+      width:50%;
+      padding:.5em;
+      &:first-child{
+        padding-left: 0;
+        }
+      &:last-child{
+        padding-right: 0;
+        }
+      }
+    }
+  }
+.index__bienvenidos, .index__nosotros,.index__frase,.index__servicios,.index__mapa,.index__direccion,.home__footer--facebook,.home__footer--formulario{
+  h1{
+    margin-bottom: .2em;
+    color:$main-col-exd;
+    font-family: $font--title;
+    font-weight: 300;
+    }
+  h2{
+    font-family: $font--title;
+    font-weight: 300;
+    color:$main-col-d;
+    margin:0;
+    }
+  p{
+    font-family: $font--paragraph;
+    }
+  }
+.index__bienvenidos, .index__nosotros{
+  background-color: $sec-col;
+  padding: 0 2em 2em;
+  color:#666666;
+  }
+.index__bienvenidos{
+  border-bottom: 1px dashed $main-col;
+  @include desde(tablet){
+    border-right: 1px dashed $main-col;
+    border-bottom: none;
+  }
+  p{
+    font-size: 1.2em;
+    }
+  }
+.index__nosotros{
+  h1{
+    text-align: center;
+    }
+  h2{
+    padding-bottom: 1.2em;
+    text-align: center;
+    }
+  p{
+    font-size: 1.1em;
+    text-align: center;
+    margin-top: 1.5em;
+    }
+  ul{
+    padding-left: 0;
+    list-style-type: none;
+    li{
+      }
+    }
+  a{
+    color: darken(#D0DF64, 45%);
+    }
+  }
+
+// Modulo .index__frase
+.index__frase{
+  .ed-container{
+    padding-bottom: 1.5em;
+    background-image: url("../img/bgcups.png");
+    background-position: center center;
+    }
+  h1{
+    color:$main-col-l;
+    }
+  p{
+    color:#ccc;
+    }
+  }
+
+// Modulo .index__servicios-mapa-direccion
+.index__servicios-mapa-direccion{
+  .ed-container{
+    padding-bottom: 3em;
+    background-color: $main-col-exd;
+    }
+  }
+
+.index{
+  &__servicios, &__mapa, &__direccion{
+      background-color: $main-col-exd;
+      h1{color:$sec-col}
+      p{color:darken($sec-col,20%)}
+    }
+  &__servicios{
+    ul{
+      list-style-type: none;
+      padding-left: .5em;
+      }
+    a{
+      color:$main-col-l;
+      }
+    }
+  }
+.home__credits-social{
+  .home__credits{
+    background-color: $main-col-exd;
+    h1{
+      color:$main-col;
+      font-family: $font--title;
+      font-weight: 300;
+      font-size: 1.5em;
+      }
+    }
+  .home__social{
+    background-color: $main-col-exd;
+    h1{
+      text-align: right;
+      color:$main-col;
+      font-family: $font--title;
+      font-weight: 300;
+      font-size: 1.5em;
+      }
+    }
+  @include from(web){
+    margin-bottom: 3em;
+    }
+  }

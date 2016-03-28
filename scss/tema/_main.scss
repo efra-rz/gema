@@ -1,0 +1,9 @@
+body{
+  background-color: darken($main-col, 40%);
+  // background-color: red;
+}
+.maps{
+  iframe{
+    pointer-events: none;
+    }
+  }

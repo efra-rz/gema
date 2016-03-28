@@ -1,0 +1,43 @@
+nav{
+  .menu{
+    list-style-type: none;
+    padding:0;
+    display: none;
+    @include from(tablet){
+      padding-top:1em;
+      margin-bottom: 1em;
+      text-align: center;
+      display:block !important;
+    }
+    li {
+      display:block;
+      @include from(tablet){
+        display: inline-block;
+        padding-top: .5em;
+        margin-right: 1em;
+        }
+      }
+    a{
+      font-family: 'PT Sans Narrow', sans-serif;
+      display: block;
+      color:#7E7E7E;
+      font-size: 1.5em;
+      @include to(tablet){
+        padding-left: .7em;
+        &:hover{
+          color:#fff;
+          background-color: lighten($main-col, 20%);
+          }
+        }
+      @include from(tablet){
+        padding:0 1.3em .7em;
+        &.active{
+          border-bottom: 3px solid $main-col;
+          }
+        &:hover{
+          border-bottom: 3px solid $main-col;
+          }
+        }
+      }
+    }
+  }

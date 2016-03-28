@@ -1,0 +1,30 @@
+.home__header
+  .ed-container.topbar
+    .ed-item.web-50
+    .ed-item.web-25
+      a(href="#") contacto@grupomaya.com
+    .ed-item.web-15
+      a(href="#") 01 81 8243-300
+    .ed-item.web-10
+      ul.topbar--social-icons
+        li: a.icon-youtube(href="#")
+        li: a.icon-facebook(href="#")
+        li: a.icon-twitter(href="#")
+        li: a.icon-google-plus(href="#")
+  .ed-container.logo-menu
+    .ed-item
+      nav
+        #boton_menu Menu
+        ul.menu
+          block menu-inicio
+            li: a(href="index.html") Inicio
+          block menu-nosotros
+            li: a(href="nosotros.html") Nosotros
+          block menu-productos
+            li: a(href="productos.html") Productos
+          block menu-servicios
+            li: a(href="servicios.html") Servicios
+          block menu-contacto
+            li: a(href="contacto.html") Contacto
+      .logo
+        img(src="img/logo-prop2.png", alt="")

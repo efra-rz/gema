@@ -1,0 +1,103 @@
+.home__footer{
+  .ed-container{
+    background-color: $main-col-d;
+    padding-bottom: 2em;
+    }
+  form{
+    input{
+
+      }
+    }
+  }
+.home__footer--facebook{
+  background-color: $main-col-d;
+  p{
+    color:darken($sec-col,10%);
+    padding-right: 3em;
+    margin-bottom: 1.5em;
+    }
+  img{
+    width:60%;
+    display: block;
+    margin:1.5em 1em 2em;
+    }
+  }
+.home__footer--social-icons{
+  list-style-type: none;
+  padding-left: 0;
+  display:flex;
+  li{
+    margin-top: 1em;
+    a{
+      font-size: 1.5em;
+      border:3px solid $main-col-exd;
+      padding:.35em .4em;
+      color:$main-col-exd;
+      margin:4em .5em 1em 1em;
+      &:first-child{
+        margin-left:0;
+        }
+      }
+    }
+  }
+.home__footer--formulario{
+  background-color: $main-col-d;
+  }
+.footer__form{
+  ul{
+    padding:0;
+    list-style-type: none;
+    input, textarea{
+      background-color: rgba($main-col-exd, .1);
+      outline-style: solid;
+      outline-width: 1px;
+      outline-color: $main-col-exd;
+      width:100%;
+      font-size: 1em;
+      line-height: 2em;
+      border:0;
+      margin:.5em 0;
+      padding:0 .7em;
+      color:rgba(#fff,.7);
+      -webkit-transition: all .3s ease-in-out;
+      -moz-transition: all .3s ease-in-out;
+      -ms-transition: all .3s ease-in-out;
+      -o-transition: all .3s ease-in-out;
+      transition: all .3s ease-in-out;
+      &::placeholder{
+        color:rgba(#fff,.7);
+        }
+      &:hover{
+        // background-color: rgba(blue,.7);
+          background-color: $main-col-exd;
+        &::placeholder{
+          color:rgba(#fff,.7);
+          }
+        }
+      &:focus{
+        cursor: auto;
+        outline-style: solid;
+        outline-width: 1px;
+        outline-color: $main-col-exd;
+        }
+      }
+      textarea{
+        font-size: 1.4em;
+        }
+      .btn-send{
+        outline-style: none;
+        width:auto;
+        border:1px solid $main-col-exd;
+        background-color: rgba($main-col-exd, .1);
+        color:$main-col-exd;
+        border-radius: .3em;
+        cursor: pointer;
+        font-size: 1em;
+        text-transform: uppercase;
+        &:hover{
+          background-color: $main-col-exd;
+          color:rgba(#fff,.7);
+          }
+        }
+      }
+    }

@@ -1,0 +1,15 @@
+extends templates/home
+block title
+  title Agencia Gema
+block menu-inicio
+  li: a.active(href="index.html") Inicio
+block content
+  section#index__slider
+    include includes/index__slider
+  section#index__bienvenidos-nosotros
+    include includes/index__bienvenidos-nosotros
+  section#index__frase
+    include includes/index__frase
+  section#index__servicios-mapa-direccion
+    include includes/index__servicios-mapa-direccion
+  

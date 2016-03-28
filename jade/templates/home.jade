@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+html(lang="es")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+    block title
+      title Home
+    block description
+      meta(name="description" content="This is an example of a meta description. This will often show up in search results.") 
+    link(rel="stylesheet", href="css/styles.css")
+    link(rel="stylesheet", href="css/nivo-slider.css")
+    link(rel="stylesheet", href="themes/bar/bar.css")
+    link(rel="stylesheet", href="themes/dark/dark.css")
+    link(rel="stylesheet", href="themes/default/default.css")
+    link(rel="stylesheet", href="themes/light/light.css")
+    #fb-root
+    script(src="js/facebook.js")
+      
+  body
+    header#home__header
+      include ../includes/home__header
+    block content
+    footer#home__footer
+      include ../includes/home__footer
+      include ../includes/home__credits
+    script(src="http://code.jquery.com/jquery-1.12.2.min.js")
+    script(src="js/jquery.nivo.slider.js")
+    script(src="js/scripts.js")
