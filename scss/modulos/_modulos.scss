@@ -30,7 +30,7 @@
       }
     }
   }
-.index__bienvenidos, .index__nosotros,.index__frase,.index__servicios,.index__mapa,.index__direccion,.home__footer--facebook,.home__footer--formulario{
+.index__bienvenidos, .index__nosotros,.index__frase,.index__servicios,.index__mapa,.index__direccion,.home__footer--facebook,.home__footer--formulario,.nosotros__acerca,.servicios__header{
   h1{
     margin-bottom: .2em;
     color:$main-col-exd;
@@ -149,4 +149,54 @@
   @include from(web){
     margin-bottom: 3em;
     }
+  }
+/**************/
+/***NOSOTROS***/
+/**************/
+.nosotros__acerca{
+  background-color: #fff;
+  height:400px;
+  background-image: url(http://placehold.it/1200x400);
+  background-position: center;
+  display:flex;
+  flex-flow: column;
+  justify-content: center;
+  h1,p{
+    text-align: center;
+    }
+  p{
+    font-size: 1.3em;
+    padding:2em 5em;
+    }
+  }
+.nosotros__mvv{
+  background-color: #fff;
+  }
+  /***************/
+  /***PRODUCTOS***/
+  /***************/
+
+.productos__rejilla{
+  background-color: #fff;
+  }
+/***************/
+/***SERVICIOS***/
+/***************/
+.servicios__header{
+  background-color: #fff;
+  height:400px;
+  background-image: url(http://placehold.it/1200x400);
+  background-position: center;
+  }
+.servicios__rejilla{
+  background-color: #fff;
+  }
+/***************/
+/***CONTACTO***/
+/***************/
+.contacto__mapa{
+  background-color: #fff;
+  }
+.contacto__form-adr{
+  background-color: #fff;
   }
