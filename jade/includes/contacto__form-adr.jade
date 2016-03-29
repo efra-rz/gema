@@ -1,5 +1,12 @@
 .ed-container.contacto__form-adr
-  .ed-item
-    h1 forma
-  .ed-item
+  .ed-item.tablet-70
+    h1 Formulario
+    .footer__form--container
+      form.footer__form(action="")
+        ul
+          li: input(type="text" placeholder="Nombre")
+          li: input(type="text" placeholder="Mail")
+          li: textarea(type="text-area" placeholder="Mensaje")
+          li: input.btn-send(type="submit" value="enviar")
+  .ed-item.tablet-30
     h1 Direccion
