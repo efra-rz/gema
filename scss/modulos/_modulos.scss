@@ -178,6 +178,32 @@
 
 .productos__rejilla{
   background-color: #fff;
+  padding-top:2em;
+  padding-bottom:2em;
+  .titulo{
+    background-color: $main-col;
+    padding:.5em;
+    margin-bottom: .5em;
+    border-top-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    }
+  h3{
+    margin:0;
+    color:$main-col-exd;
+  }
+  .descripcion{
+    // display: flex;
+    }
+  .descripcion-img{
+    width: 500px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    }
+  .descripcion-p{
+    width: 500px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    }
   }
 /***************/
 /***SERVICIOS***/

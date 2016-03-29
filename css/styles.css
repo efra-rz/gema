@@ -2821,14 +2821,14 @@ nav .menu {
   .home__header {
     margin-top: 3em; } }
 
-#boton_menu {
+#boton_menu, #producto {
   background: #2bb0c2;
   color: #fff;
   line-height: 3em;
   font-size: .9em;
   text-align: center; }
   @media screen and (min-width: 768px) {
-    #boton_menu {
+    #boton_menu, #producto {
       display: none; } }
 
 .logo {
@@ -3103,7 +3103,26 @@ body {
 /***PRODUCTOS***/
 /***************/
 .productos__rejilla {
-  background-color: #fff; }
+  background-color: #fff;
+  padding-top: 2em;
+  padding-bottom: 2em; }
+  .productos__rejilla .titulo {
+    background-color: #35BFD2;
+    padding: .5em;
+    margin-bottom: .5em;
+    border-top-left-radius: 1em;
+    border-bottom-right-radius: 1em; }
+  .productos__rejilla h3 {
+    margin: 0;
+    color: #0f3f45; }
+  .productos__rejilla .descripcion-img {
+    width: 500px;
+    margin-right: 20px;
+    margin-bottom: 20px; }
+  .productos__rejilla .descripcion-p {
+    width: 500px;
+    margin-right: 20px;
+    margin-bottom: 20px; }
 
 /***************/
 /***SERVICIOS***/
