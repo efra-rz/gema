@@ -2974,19 +2974,19 @@ body {
         .flex-container .flex-item:last-child {
           padding-right: 0; } }
 
-.index__bienvenidos h1, .index__nosotros h1, .index__frase h1, .index__servicios h1, .index__mapa h1, .index__direccion h1, .home__footer--facebook h1, .home__footer--formulario h1, .nosotros__acerca h1, .servicios__header h1 {
+.index__bienvenidos h1, .index__nosotros h1, .index__frase h1, .index__servicios h1, .index__mapa h1, .index__direccion h1, .home__footer--facebook h1, .home__footer--formulario h1, .nosotros__acerca h1, .servicios__header h1, .contacto__mapa h1 {
   margin-bottom: .2em;
   color: #0f3f45;
   font-family: "PT Sans Narrow", sans-serif;
   font-weight: 300; }
 
-.index__bienvenidos h2, .index__nosotros h2, .index__frase h2, .index__servicios h2, .index__mapa h2, .index__direccion h2, .home__footer--facebook h2, .home__footer--formulario h2, .nosotros__acerca h2, .servicios__header h2 {
+.index__bienvenidos h2, .index__nosotros h2, .index__frase h2, .index__servicios h2, .index__mapa h2, .index__direccion h2, .home__footer--facebook h2, .home__footer--formulario h2, .nosotros__acerca h2, .servicios__header h2, .contacto__mapa h2 {
   font-family: "PT Sans Narrow", sans-serif;
   font-weight: 300;
   color: #228a99;
   margin: 0; }
 
-.index__bienvenidos p, .index__nosotros p, .index__frase p, .index__servicios p, .index__mapa p, .index__direccion p, .home__footer--facebook p, .home__footer--formulario p, .nosotros__acerca p, .servicios__header p {
+.index__bienvenidos p, .index__nosotros p, .index__frase p, .index__servicios p, .index__mapa p, .index__direccion p, .home__footer--facebook p, .home__footer--formulario p, .nosotros__acerca p, .servicios__header p, .contacto__mapa p {
   font-family: "Lato", sans-serif; }
 
 .index__bienvenidos, .index__nosotros {
@@ -3122,6 +3122,11 @@ body {
 /***************/
 .contacto__mapa {
   background-color: #fff; }
+  .contacto__mapa h1 {
+    text-align: center;
+    margin-bottom: 1.5em; }
+  .contacto__mapa .maps {
+    padding: 0; }
 
 .contacto__form-adr {
   background-color: #fff; }
