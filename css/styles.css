@@ -3102,25 +3102,29 @@ body {
 /***************/
 /***PRODUCTOS***/
 /***************/
-.productos__rejilla {
+.productos__rejilla, .servicios__rejilla {
   background-color: #fff;
   padding-top: 2em;
   padding-bottom: 2em; }
-  .productos__rejilla .titulo {
+  .productos__rejilla .titulo, .servicios__rejilla .titulo {
     background-color: #35BFD2;
     padding: .5em;
     margin-bottom: .5em;
     border-top-left-radius: 1em;
     border-bottom-right-radius: 1em; }
-  .productos__rejilla h3 {
+  .productos__rejilla h3, .servicios__rejilla h3 {
     margin: 0;
     color: #0f3f45; }
-  .productos__rejilla .descripcion-img {
+  .productos__rejilla .descripcion, .servicios__rejilla .descripcion {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  .productos__rejilla .descripcion-img, .servicios__rejilla .descripcion-img {
     width: 500px;
     margin-right: 20px;
     margin-bottom: 20px; }
-  .productos__rejilla .descripcion-p {
-    width: 500px;
+  .productos__rejilla .descripcion-parrafo, .servicios__rejilla .descripcion-parrafo {
+    width: 100%;
     margin-right: 20px;
     margin-bottom: 20px; }
 

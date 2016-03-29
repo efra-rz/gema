@@ -176,7 +176,7 @@
   /***PRODUCTOS***/
   /***************/
 
-.productos__rejilla{
+.productos__rejilla, .servicios__rejilla{
   background-color: #fff;
   padding-top:2em;
   padding-bottom:2em;
@@ -192,15 +192,15 @@
     color:$main-col-exd;
   }
   .descripcion{
-    // display: flex;
+    display: flex;
     }
   .descripcion-img{
     width: 500px;
     margin-right: 20px;
     margin-bottom: 20px;
     }
-  .descripcion-p{
-    width: 500px;
+  .descripcion-parrafo{
+    width: 100%;
     margin-right: 20px;
     margin-bottom: 20px;
     }
