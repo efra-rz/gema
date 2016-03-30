@@ -63,6 +63,9 @@
     }
   }
 .index__nosotros{
+  .ed-container{
+    padding-top: 0;
+    }
   h1{
     text-align: center;
     }
@@ -217,6 +220,10 @@
     margin-bottom: .5em;
     border-top-left-radius: 1em;
     border-bottom-right-radius: 1em;
+    &:hover{
+      cursor: pointer;
+      background-color: $main-col-d;
+      }
     }
   h3{
     margin:0;
@@ -226,7 +233,7 @@
     display: flex;
     }
   .descripcion-img{
-    width: 500px;
+    width: 200px;
     margin-right: 20px;
     margin-bottom: 20px;
     }
@@ -258,13 +265,16 @@
 /***************/
 /***CONTACTO***/
 /***************/
-.contacto__mapa{
-  background-color: $sec-col;
+.contacto--header{
   h1{
     text-align: center;
+    font-size: 2em;
     margin-bottom: 1.5em;
     }
-  .maps{
+  }
+.contacto__mapa{
+  background-color: $sec-col;
+    .maps{
     padding:0;
     }
   }

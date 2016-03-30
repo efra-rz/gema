@@ -3003,6 +3003,9 @@ body {
   .index__bienvenidos p {
     font-size: 1.2em; }
 
+.index__nosotros .ed-container {
+  padding-top: 0; }
+
 .index__nosotros h1 {
   text-align: center; }
 
@@ -3138,6 +3141,9 @@ body {
     margin-bottom: .5em;
     border-top-left-radius: 1em;
     border-bottom-right-radius: 1em; }
+    .productos__rejilla .titulo:hover, .servicios__rejilla .titulo:hover {
+      cursor: pointer;
+      background-color: #228a99; }
   .productos__rejilla h3, .servicios__rejilla h3 {
     margin: 0;
     color: #0f3f45; }
@@ -3146,7 +3152,7 @@ body {
     display: -ms-flexbox;
     display: flex; }
   .productos__rejilla .descripcion-img, .servicios__rejilla .descripcion-img {
-    width: 500px;
+    width: 200px;
     margin-right: 20px;
     margin-bottom: 20px; }
   .productos__rejilla .descripcion-parrafo, .servicios__rejilla .descripcion-parrafo {
@@ -3172,11 +3178,13 @@ body {
 /***************/
 /***CONTACTO***/
 /***************/
+.contacto--header h1 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 1.5em; }
+
 .contacto__mapa {
   background-color: #fff; }
-  .contacto__mapa h1 {
-    text-align: center;
-    margin-bottom: 1.5em; }
   .contacto__mapa .maps {
     padding: 0; }
 
