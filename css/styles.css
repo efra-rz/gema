@@ -2974,19 +2974,19 @@ body {
         .flex-container .flex-item:last-child {
           padding-right: 0; } }
 
-.index__bienvenidos h1, .index__nosotros h1, .index__frase h1, .index__servicios h1, .index__mapa h1, .index__direccion h1, .home__footer--facebook h1, .home__footer--formulario h1, .modulo__header h1, .servicios__header h1, .contacto__mapa h1, .nosotros__mvv h1 {
+.index__bienvenidos h1, .index__nosotros h1, .index__frase h1, .index__servicios h1, .index__mapa h1, .index__direccion h1, .home__footer--facebook h1, .home__footer--formulario h1, .modulo__header h1, .servicios__header h1, .contacto__mapa h1, .nosotros__mvv h1, .contacto__form-adr h1 {
   margin-bottom: .2em;
   color: #0f3f45;
   font-family: "PT Sans Narrow", sans-serif;
   font-weight: 300; }
 
-.index__bienvenidos h2, .index__nosotros h2, .index__frase h2, .index__servicios h2, .index__mapa h2, .index__direccion h2, .home__footer--facebook h2, .home__footer--formulario h2, .modulo__header h2, .servicios__header h2, .contacto__mapa h2, .nosotros__mvv h2 {
+.index__bienvenidos h2, .index__nosotros h2, .index__frase h2, .index__servicios h2, .index__mapa h2, .index__direccion h2, .home__footer--facebook h2, .home__footer--formulario h2, .modulo__header h2, .servicios__header h2, .contacto__mapa h2, .nosotros__mvv h2, .contacto__form-adr h2 {
   font-family: "PT Sans Narrow", sans-serif;
   font-weight: 300;
   color: #228a99;
   margin: 0; }
 
-.index__bienvenidos p, .index__nosotros p, .index__frase p, .index__servicios p, .index__mapa p, .index__direccion p, .home__footer--facebook p, .home__footer--formulario p, .modulo__header p, .servicios__header p, .contacto__mapa p, .nosotros__mvv p {
+.index__bienvenidos p, .index__nosotros p, .index__frase p, .index__servicios p, .index__mapa p, .index__direccion p, .home__footer--facebook p, .home__footer--formulario p, .modulo__header p, .servicios__header p, .contacto__mapa p, .nosotros__mvv p, .contacto__form-adr p {
   font-family: "Lato", sans-serif; }
 
 .index__bienvenidos, .index__nosotros {
@@ -3181,4 +3181,62 @@ body {
     padding: 0; }
 
 .contacto__form-adr {
-  background-color: #fff; }
+  background-color: #fff;
+  padding: 1em 0 3em; }
+  .contacto__form-adr .ed-item {
+    padding: 0 2em; }
+
+.contacto__form ul {
+  padding: 0;
+  list-style-type: none; }
+  .contacto__form ul input, .contacto__form ul textarea {
+    background-color: rgba(15, 63, 69, 0.4);
+    outline-style: solid;
+    outline-width: 1px;
+    width: 90%;
+    font-size: 1em;
+    line-height: 2em;
+    border: 0;
+    border-radius: 5px;
+    margin: .5em 0;
+    padding: 0 .7em;
+    color: rgba(255, 255, 255, 0.7);
+    transition: all .3s ease-in-out; }
+    .contacto__form ul input::-webkit-input-placeholder, .contacto__form ul textarea::-webkit-input-placeholder {
+      color: rgba(255, 255, 255, 0.7); }
+    .contacto__form ul input::-moz-placeholder, .contacto__form ul textarea::-moz-placeholder {
+      color: rgba(255, 255, 255, 0.7); }
+    .contacto__form ul input:-ms-input-placeholder, .contacto__form ul textarea:-ms-input-placeholder {
+      color: rgba(255, 255, 255, 0.7); }
+    .contacto__form ul input::placeholder, .contacto__form ul textarea::placeholder {
+      color: rgba(255, 255, 255, 0.7); }
+    .contacto__form ul input:hover, .contacto__form ul textarea:hover {
+      background-color: #0f3f45; }
+      .contacto__form ul input:hover::-webkit-input-placeholder, .contacto__form ul textarea:hover::-webkit-input-placeholder {
+        color: rgba(255, 255, 255, 0.7); }
+      .contacto__form ul input:hover::-moz-placeholder, .contacto__form ul textarea:hover::-moz-placeholder {
+        color: rgba(255, 255, 255, 0.7); }
+      .contacto__form ul input:hover:-ms-input-placeholder, .contacto__form ul textarea:hover:-ms-input-placeholder {
+        color: rgba(255, 255, 255, 0.7); }
+      .contacto__form ul input:hover::placeholder, .contacto__form ul textarea:hover::placeholder {
+        color: rgba(255, 255, 255, 0.7); }
+    .contacto__form ul input:focus, .contacto__form ul textarea:focus {
+      cursor: auto;
+      outline-style: solid;
+      outline-width: 1px;
+      outline-color: #0f3f45; }
+  .contacto__form ul textarea {
+    font-size: 1.4em; }
+  .contacto__form ul .btn-send {
+    outline-style: none;
+    width: auto;
+    border: 1px solid #0f3f45;
+    background-color: rgba(15, 63, 69, 0.1);
+    color: #0f3f45;
+    border-radius: .3em;
+    cursor: pointer;
+    font-size: 1em;
+    text-transform: uppercase; }
+    .contacto__form ul .btn-send:hover {
+      background-color: #0f3f45;
+      color: rgba(255, 255, 255, 0.7); }
