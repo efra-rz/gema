@@ -2974,19 +2974,19 @@ body {
         .flex-container .flex-item:last-child {
           padding-right: 0; } }
 
-.index__bienvenidos h1, .index__nosotros h1, .index__frase h1, .index__servicios h1, .index__mapa h1, .index__direccion h1, .home__footer--facebook h1, .home__footer--formulario h1, .nosotros__acerca h1, .servicios__header h1, .contacto__mapa h1, .nosotros__mvv h1 {
+.index__bienvenidos h1, .index__nosotros h1, .index__frase h1, .index__servicios h1, .index__mapa h1, .index__direccion h1, .home__footer--facebook h1, .home__footer--formulario h1, .modulo__header h1, .servicios__header h1, .contacto__mapa h1, .nosotros__mvv h1 {
   margin-bottom: .2em;
   color: #0f3f45;
   font-family: "PT Sans Narrow", sans-serif;
   font-weight: 300; }
 
-.index__bienvenidos h2, .index__nosotros h2, .index__frase h2, .index__servicios h2, .index__mapa h2, .index__direccion h2, .home__footer--facebook h2, .home__footer--formulario h2, .nosotros__acerca h2, .servicios__header h2, .contacto__mapa h2, .nosotros__mvv h2 {
+.index__bienvenidos h2, .index__nosotros h2, .index__frase h2, .index__servicios h2, .index__mapa h2, .index__direccion h2, .home__footer--facebook h2, .home__footer--formulario h2, .modulo__header h2, .servicios__header h2, .contacto__mapa h2, .nosotros__mvv h2 {
   font-family: "PT Sans Narrow", sans-serif;
   font-weight: 300;
   color: #228a99;
   margin: 0; }
 
-.index__bienvenidos p, .index__nosotros p, .index__frase p, .index__servicios p, .index__mapa p, .index__direccion p, .home__footer--facebook p, .home__footer--formulario p, .nosotros__acerca p, .servicios__header p, .contacto__mapa p, .nosotros__mvv p {
+.index__bienvenidos p, .index__nosotros p, .index__frase p, .index__servicios p, .index__mapa p, .index__direccion p, .home__footer--facebook p, .home__footer--formulario p, .modulo__header p, .servicios__header p, .contacto__mapa p, .nosotros__mvv p {
   font-family: "Lato", sans-serif; }
 
 .index__bienvenidos, .index__nosotros {
@@ -3076,11 +3076,11 @@ body {
 /**************/
 /***NOSOTROS***/
 /**************/
-.nosotros__acerca {
+.modulo__header {
   background-color: #fff;
-  height: 400px;
-  background-image: url(http://placehold.it/1200x400);
-  background-position: center;
+  background-image: url(../img/ge01.jpg);
+  background-attachment: fixed;
+  background-position: center 1000px;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -3090,11 +3090,19 @@ body {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center; }
-  .nosotros__acerca h1, .nosotros__acerca p {
-    text-align: center; }
-  .nosotros__acerca p {
+  .modulo__header h1, .modulo__header p {
+    text-align: center;
+    color: #0f3f45; }
+  .modulo__header h1 {
+    margin-top: 1.5em; }
+  .modulo__header p {
     font-size: 1.3em;
-    padding: 2em 5em; }
+    padding: 1em 5em 2em; }
+  .modulo__header .ed-item {
+    background-color: rgba(255, 255, 255, 0.7); }
+
+.nosotros__acerca--descripcion {
+  background-color: #fff; }
 
 .nosotros__mvv {
   background-color: #fff;
@@ -3104,6 +3112,7 @@ body {
     margin-bottom: 1em; }
   .nosotros__mvv img {
     display: block;
+    width: 35%;
     margin: 0 auto 2em; }
   .nosotros__mvv p {
     padding: 0 2em;
@@ -3115,6 +3124,10 @@ body {
 /***************/
 /***PRODUCTOS***/
 /***************/
+.productos__header {
+  background-image: url("../img/ge01.jpg");
+  background-position: top; }
+
 .productos__rejilla, .servicios__rejilla {
   background-color: #fff;
   padding-top: 5em;
@@ -3148,13 +3161,13 @@ body {
 /***SERVICIOS***/
 /***************/
 .servicios__header {
-  background-color: #fff;
-  height: 400px;
-  background-image: url(http://placehold.it/1200x400);
+  background-image: url(../img/ge02.jpg);
   background-position: center; }
 
 .servicios__rejilla {
   background-color: #fff; }
+  .servicios__rejilla .ed-item {
+    padding: 0 3em; }
 
 /***************/
 /***CONTACTO***/

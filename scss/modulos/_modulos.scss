@@ -30,7 +30,7 @@
       }
     }
   }
-.index__bienvenidos, .index__nosotros,.index__frase,.index__servicios,.index__mapa,.index__direccion,.home__footer--facebook,.home__footer--formulario,.nosotros__acerca,.servicios__header,.contacto__mapa,.nosotros__mvv{
+.index__bienvenidos, .index__nosotros,.index__frase,.index__servicios,.index__mapa,.index__direccion,.home__footer--facebook,.home__footer--formulario,.modulo__header,.servicios__header,.contacto__mapa,.nosotros__mvv{
   h1{
     margin-bottom: .2em;
     color:$main-col-exd;
@@ -153,21 +153,32 @@
 /**************/
 /***NOSOTROS***/
 /**************/
-.nosotros__acerca{
+.modulo__header{
   background-color: $sec-col;
-  height:400px;
-  background-image: url(http://placehold.it/1200x400);
-  background-position: center;
+  //height:400px;
+  background-image: url(../img/ge01.jpg);
+  background-attachment: fixed;
+  background-position: center 1000px;
   display:flex;
   flex-flow: column;
   justify-content: center;
   h1,p{
     text-align: center;
+    color:$main-col-exd;
+    }
+  h1{
+    margin-top: 1.5em;
     }
   p{
     font-size: 1.3em;
-    padding:2em 5em;
+    padding:1em 5em 2em;
     }
+  .ed-item{
+    background-color: rgba($sec-col, .7)
+    }
+  }
+.nosotros__acerca--descripcion{
+  background-color: $sec-col;
   }
 .nosotros__mvv{
   background-color: $sec-col;
@@ -178,6 +189,7 @@
     }
   img{
     display: block;
+    width:35%;
     margin: 0 auto 2em;
     }
   p{
@@ -191,7 +203,10 @@
   /***************/
   /***PRODUCTOS***/
   /***************/
-
+.productos__header{
+  background-image: url("../img/ge01.jpg");
+  background-position: top;
+  }
 .productos__rejilla, .servicios__rejilla{
   background-color: $sec-col;
   padding-top:5em;
@@ -231,13 +246,14 @@
 /***SERVICIOS***/
 /***************/
 .servicios__header{
-  background-color: $sec-col;
-  height:400px;
-  background-image: url(http://placehold.it/1200x400);
+  background-image: url(../img/ge02.jpg);
   background-position: center;
   }
 .servicios__rejilla{
   background-color: $sec-col;
+  .ed-item{
+    padding:0 3em;
+    }
   }
 /***************/
 /***CONTACTO***/
