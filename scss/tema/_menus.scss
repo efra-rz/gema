@@ -25,7 +25,7 @@ nav{
       @include to(tablet){
         padding-left: .7em;
         &:hover{
-          color:#fff;
+          color:$sec-col;
           background-color: lighten($main-col, 20%);
           }
         }

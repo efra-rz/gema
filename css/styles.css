@@ -3098,7 +3098,7 @@ body {
 
 .nosotros__mvv {
   background-color: #fff;
-  padding: 3em .5em; }
+  padding: 5em .5em; }
   .nosotros__mvv h2 {
     text-align: center;
     margin-bottom: 1em; }
@@ -3117,8 +3117,8 @@ body {
 /***************/
 .productos__rejilla, .servicios__rejilla {
   background-color: #fff;
-  padding-top: 2em;
-  padding-bottom: 2em; }
+  padding-top: 5em;
+  padding-bottom: 5em; }
   .productos__rejilla .titulo, .servicios__rejilla .titulo {
     background-color: #35BFD2;
     padding: .5em;
@@ -3140,6 +3140,9 @@ body {
     width: 100%;
     margin-right: 20px;
     margin-bottom: 20px; }
+
+.productos__rejilla .ed-item {
+  padding: 0 4em; }
 
 /***************/
 /***SERVICIOS***/

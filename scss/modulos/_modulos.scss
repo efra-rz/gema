@@ -1,6 +1,6 @@
 // Modulo .index__slider
 .inicio__slider-principal{
-  background-color: #fff;
+  background-color: $sec-col;
   color:black;
   .inicio--slider-box{
     padding:0;
@@ -10,7 +10,7 @@
 .index__bienvenidos-nosotros{
   .ed-container{
   padding:2em 0;
-  background-color: #fff;
+  background-color: $sec-col;
   }
 }
 
@@ -154,7 +154,7 @@
 /***NOSOTROS***/
 /**************/
 .nosotros__acerca{
-  background-color: #fff;
+  background-color: $sec-col;
   height:400px;
   background-image: url(http://placehold.it/1200x400);
   background-position: center;
@@ -170,8 +170,8 @@
     }
   }
 .nosotros__mvv{
-  background-color: #fff;
-  padding:3em .5em;
+  background-color: $sec-col;
+  padding:5em .5em;
   h2{
     text-align: center;
     margin-bottom: 1em;
@@ -193,9 +193,9 @@
   /***************/
 
 .productos__rejilla, .servicios__rejilla{
-  background-color: #fff;
-  padding-top:2em;
-  padding-bottom:2em;
+  background-color: $sec-col;
+  padding-top:5em;
+  padding-bottom:5em;
   .titulo{
     background-color: $main-col;
     padding:.5em;
@@ -221,23 +221,29 @@
     margin-bottom: 20px;
     }
   }
+.productos__rejilla{
+  .ed-item{
+    padding:0 4em;
+    //@include
+    }
+  }
 /***************/
 /***SERVICIOS***/
 /***************/
 .servicios__header{
-  background-color: #fff;
+  background-color: $sec-col;
   height:400px;
   background-image: url(http://placehold.it/1200x400);
   background-position: center;
   }
 .servicios__rejilla{
-  background-color: #fff;
+  background-color: $sec-col;
   }
 /***************/
 /***CONTACTO***/
 /***************/
 .contacto__mapa{
-  background-color: #fff;
+  background-color: $sec-col;
   h1{
     text-align: center;
     margin-bottom: 1.5em;
@@ -247,5 +253,5 @@
     }
   }
 .contacto__form-adr{
-  background-color: #fff;
+  background-color: $sec-col;
   }

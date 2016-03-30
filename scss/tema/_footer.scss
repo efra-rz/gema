@@ -60,20 +60,20 @@
       border:0;
       margin:.5em 0;
       padding:0 .7em;
-      color:rgba(#fff,.7);
+      color:rgba($sec-col,.7);
       -webkit-transition: all .3s ease-in-out;
       -moz-transition: all .3s ease-in-out;
       -ms-transition: all .3s ease-in-out;
       -o-transition: all .3s ease-in-out;
       transition: all .3s ease-in-out;
       &::placeholder{
-        color:rgba(#fff,.7);
+        color:rgba($sec-col,.7);
         }
       &:hover{
         // background-color: rgba(blue,.7);
           background-color: $main-col-exd;
         &::placeholder{
-          color:rgba(#fff,.7);
+          color:rgba($sec-col,.7);
           }
         }
       &:focus{
@@ -98,7 +98,7 @@
         text-transform: uppercase;
         &:hover{
           background-color: $main-col-exd;
-          color:rgba(#fff,.7);
+          color:rgba($sec-col,.7);
           }
         }
       }

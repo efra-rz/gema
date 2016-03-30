@@ -5,7 +5,7 @@
     padding: .3em 0 .3em;
     text-align: right;
     a{
-      color:#fff;
+      color:$sec-col;
       font-weight: bold;
       font-size: 1em;
       }
@@ -29,7 +29,7 @@
   }
 #boton_menu, #producto{
   background: darken($main-col, 5%);
-  color: #fff;
+  color: $sec-col;
   line-height: 3em;
   // padding-right: 3em;
   font-size: .9em;
