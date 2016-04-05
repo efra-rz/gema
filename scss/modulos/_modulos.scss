@@ -231,22 +231,37 @@
   }
   .descripcion{
     display: flex;
+    &__productos{
+      display: flex;
+      flex-flow: column wrap;
+      }
     }
   .descripcion-img{
     width: 200px;
     margin-right: 20px;
     margin-bottom: 20px;
+    &__productos{
+      width: 45%;
+      margin:auto;
+      margin-bottom: 10px;
+      }
     }
   .descripcion-parrafo{
     width: 100%;
     margin-right: 20px;
     margin-bottom: 20px;
+    &__productos{
+      margin-right: 0;
+      margin-bottom: 10px;
+      text-align: center;
+      font-size: 1.7em;
+      font-family: $font--title;
+      }
     }
   }
 .productos__rejilla{
   .ed-item{
     padding:0 4em;
-    //@include
     }
   }
 /***************/

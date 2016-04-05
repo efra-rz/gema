@@ -4,20 +4,22 @@
   .ed-item.tablet-65
     h1 Formulario
     .contacto__form--container
-      form.contacto__form(action="")
+      //form.contacto__form(action="http://efrix.net/form/gema-by-mail.php" method="post")
+      form.contacto__form(action="http://agenciagema.com/gema-by-mail.php" method="post")
         ul
-          li: input(type="text" placeholder="Nombre")
-          li: input(type="text" placeholder="Teléfono")
-          li: input(type="text" placeholder="Mail")
-          li: textarea(type="text-area" placeholder="Mensaje")
+          li: input(type="text" name="nombre" placeholder="Nombre")
+          li: input(type="text" name="correo" placeholder="Teléfono")
+          li: input(type="text" name="telefono" placeholder="Mail")
+          li: textarea(type="text-area" name="mensaje" placeholder="Mensaje")
           li: input.btn-send(type="submit" value="enviar")
   .ed-item.tablet-35
     h1 Dirección
 
-    p Dardanelos 3120, Estrella,<br>CP: 64400 Mty, N.L.
-    p Teléfono:01 81 8298 8674
+    p.icon-in Dardanelos 3120, Estrella,<br>CP: 64400 Mty, N.L.
+    p Teléfono:81 8355 0252
+    p Teléfono:81 8320 1571
     p Mail: contacto@agenciagema.com
     ul.home__footer--social-icons
       li: a.icon-facebook(href="https://www.facebook.com/agenciagemamty/" target="_blank")
-      li: a.icon-twitter(href="https://www.facebook.com/agenciagemamty/" target="_blank")
-      li: a.icon-google-plus(href="https://www.facebook.com/agenciagemamty/" target="_blank")
+      li: a.icon-twitter(href="https://twitter.com/agenciagemamty" target="_blank")
+      li: a.icon-google-plus(href="https://plus.google.com/108612761362268448487" target="_blank")
