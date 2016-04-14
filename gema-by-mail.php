@@ -4,7 +4,7 @@
 $email_to = "contacto@agenciagema.com"; //Direcciones a las que se enviara el correo
 $email_from ="contacto@agenciagema.com"; //Direccion que quieras que le aparezca al cliente
 $email_subject = "Formulario desde sitio web Gema"; //Asunto
-$email_bcc = "webmaster@morraldeyute.com, admorral@gmail.com"; //Direcciones copias ocultas
+$email_bcc = "webmaster@morraldeyute.com, admorral@gmail.com, dulce@maildelmorral.com, a.guerra@agenciagema.com, j.guerra@agenciagema.com, n_valdez@agenciagema.com"; //Direcciones copias ocultas
 
 // Variables del mensaje
 $nombre = $_POST['nombre'];
