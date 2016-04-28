@@ -2826,7 +2826,8 @@ nav .menu {
   color: #fff;
   line-height: 3em;
   font-size: .9em;
-  text-align: center; }
+  text-align: center;
+  cursor: pointer; }
   @media screen and (min-width: 768px) {
     #boton_menu, #producto {
       display: none; } }
